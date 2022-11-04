@@ -60,8 +60,6 @@ nav {
   background: url("https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .sliderWrapper {
@@ -130,7 +128,7 @@ nav {
   color: black;
 }
 
-/* .sliderItem:nth-child(1) .sliderBg {
+.sliderItem:nth-child(1) .sliderBg {
   background-color: #369e62;
 }
 .sliderItem:nth-child(2) .sliderBg {
@@ -144,7 +142,7 @@ nav {
 }
 .sliderItem:nth-child(5) .sliderBg {
   background-color: rgb(124, 115, 80);
-} */
+}
 
 .sliderItem:nth-child(1) .sliderPrice {
   color: #369e62;
