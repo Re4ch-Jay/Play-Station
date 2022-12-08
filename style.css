@@ -827,3 +827,52 @@ header .logo
   font-size: 1.5rem;
   padding: 1rem 0;
 }
+
+
+/* Trending page */
+
+#game-cards img {
+  max-width: 300px;
+  padding: 20px 0;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+#game-cards .card-hover:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 20px;
+}
+
+/* ps5 show case */
+
+#ps5-console img {
+  max-width: 800px;
+}
+
+
+#ps5-console .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:1200px) {
+  #ps5-console img {
+    max-width: 400px;
+  }
+
+  #game-cards img {
+    max-width: 200px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:980px) {
+  #ps5-console img {
+    margin-top: 30px;
+  }
+  #game-cards img {
+    max-width: 350px;
+    margin: 0;
+  }
+}
