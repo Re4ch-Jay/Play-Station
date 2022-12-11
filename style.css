@@ -838,7 +838,7 @@ header .logo
   transition: 0.5s ease;
 }
 
-#game-cards .card-hover:hover {
+#game-cards img:hover {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 20px;
 }
@@ -875,4 +875,35 @@ header .logo
     max-width: 350px;
     margin: 0;
   }
+}
+
+
+/* about us page */
+
+#workplace img {
+  max-width: 500px;
+}
+
+
+@media screen and (max-width:1200px) {
+  #workplace img {
+    max-width: 400px;
+    padding-bottom: 20px;
+  }
+  
+}
+
+@media screen and (max-width:980px) {
+  #workplace img {
+    max-width: 300px;
+  }
+  
+}
+
+
+/* developers page */
+
+#developers img {
+  border-radius: 50%;
+  max-width: 200px;
 }
