@@ -907,3 +907,60 @@ header .logo
   border-radius: 50%;
   max-width: 200px;
 }
+
+#links img {
+  max-width: 400px;
+}
+
+
+@media screen and (max-width:1280px){
+  #ps5-console img{
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #links img {
+    max-width: 200px;
+  }
+}
+
+
+@media screen and (max-width:790px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerLeft {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width:400px) {
+    #ps5-console img{
+       max-width: 300px;
+    }
+    #game-cards img {
+      max-width: 300px;
+    }
+
+    #showcase h2{
+      font-style: 15px;
+      word-wrap: break-word; 
+    }
+
+    #showcase h3{
+      font-style: 13px;
+    }
+
+    #showcase p{
+      font-style: 11px;
+    }
+}
+
+
+
