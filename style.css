@@ -106,6 +106,9 @@ nav {
   font-weight: 300;
   text-align: center;
   color: white;
+  padding: 5px;
+  border-radius: 0 20px;
+  background-color: #fff;
   border: 1px solid gray;
   z-index: 1;
 }
