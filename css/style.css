@@ -915,15 +915,29 @@ header .logo
   max-width: 400px;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1580px){
   #ps5-console img{
     max-width: 480px;
+  }
+  .productTitle {
+    font-size: 60px;
   }
 }
 
 @media screen and (max-width:1280px){
   #ps5-console img{
     max-width: 400px;
+  }
+  .productTitle {
+    font-size: 35px;
+  }
+  .sizes {
+    flex-wrap: wrap;
+  }
+
+  #product {
+    display: flex;
+    flex-direction: column;
   }
 }
 
